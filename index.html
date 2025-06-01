@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio | Paulo Amoroso</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #0f0f0f;
+      color: #f1f1f1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      margin: 3em 1em 2em;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    header img {
+      width: 140px;
+      border-radius: 50%;
+      border: 3px solid #00ffff;
+      animation: bounceIn 1.4s;
+    }
+
+    h1 {
+      margin-top: 1em;
+      font-size: 2em;
+      color: #00ffff;
+    }
+
+    h2 {
+      font-weight: normal;
+      font-size: 1.2em;
+      color: #ccc;
+    }
+
+    section {
+      width: 90%;
+      max-width: 800px;
+      margin: 2em auto;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #ffaa00;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin: 1em 0;
+      padding: 1em;
+      background: #1c1c1c;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+
+    li:hover {
+      transform: scale(1.02);
+    }
+
+    footer {
+      margin: 4em 0 2em;
+      font-size: 0.8em;
+      color: #888;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    @keyframes bounceIn {
+      0% {transform: scale(0.5); opacity: 0;}
+      60% {transform: scale(1.1); opacity: 1;}
+      100% {transform: scale(1);}
+    }
+
+    @keyframes fadeInUp {
+      from {transform: translateY(20px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="avatar.jpg" alt="Avatar Paulo Amoroso">
+    <h1>Paulo Amoroso</h1>
+    <h2>Engenheiro Eletricista | Gerente de Projetos | Criador de Soluções Digitais</h2>
+  </header>
+
+  <section>
+    <p>
+      Atuo na indústria automotiva com foco em projetos modulares de chicotes elétricos. Também desenvolvo soluções com IA, automação e interfaces web. Apaixonado por inovação com propósito.
+    </p>
+  </section>
+
+  <section>
+    <h3>🔧 Projetos em Destaque</h3>
+    <ul>
+      <li><a href="https://github.com/pramoroso/calculadora-secao-condutor">Calculadora de Seção de Condutores</a></li>
+      <li><a href="https://github.com/pramoroso/leitor-_comprovantes">Leitor de Comprovantes com IA</a></li>
+      <li><a href="https://github.com/pramoroso/estimador_ibira">Estimador de Preços de Imóveis</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>📫 Conecte-se</h3>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/paulo-amoroso-04782a29/">LinkedIn</a></li>
+      <li><a href="mailto:paulo@wamoroso.com.br">paulo@wamoroso.com.br</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Paulo Amoroso. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
